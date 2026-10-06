@@ -60,10 +60,10 @@ print("household-day MAE / R² by PV status\n", pv.round(3))
 
 fig, ax = plt.subplots(figsize=(3.4, 1.6))
 bars = ax.bar(pv.index, pv["MAE"], 0.6, color=[ORANGE, BLUE, AQUA])
-ax.bar_label(bars, labels=[f"{m:.2f} kWh\nR² {r:.2f}" for m, r in zip(pv["MAE"], pv["R2"])],
+ax.bar_label(bars, labels=[f"{m:.2f} kWh" for m in pv["MAE"]],
              fontsize=6.5, padding=1)
 ax.set(ylabel="MAE (kWh per day)", title="Daily error per household by PV status",
-       ylim=(0, pv["MAE"].max() * 1.4))
+       ylim=(0, pv["MAE"].max() * 1.2))
 fig.savefig(OUT / "pv_groups.pdf")
 fig.savefig(OUT / "pv_groups.png", dpi=200)  # for RESULTS_SUMMARY.md
 
