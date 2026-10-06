@@ -1,0 +1,15 @@
+{
+  "test_start": "2024-01-01",
+  "test_end": "2024-02-27",
+  "timezone": "Europe/Berlin",
+  "households": 1,
+  "possible_intervals": 5568,
+  "forecastable_intervals": 5568,
+  "scored_intervals": 5568,
+  "interval_mae_kwh": 0.3124344468390805,
+  "interval_rmse_kwh": 0.41533352972322884,
+  "wape": 0.6954336798838784,
+  "portfolio_signed_error_kwh": 57.08699999999994,
+  "mean_bias_kwh_per_interval": 0.01025269396551723,
+  "mean_daily_portfolio_absolute_error_kwh": 9.554568965517243
+}

@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment secrets / API keys
+.env
+*.env
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# uv
+uv.lock
+
+# Our processed outputs (large, regenerate with preprocessing scripts)
+data_processed/
+
+data/weather_data_15min/weather_data_15min.csv
