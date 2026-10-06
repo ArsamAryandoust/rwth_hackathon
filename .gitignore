@@ -1,5 +1,6 @@
 # Virtual environments
 .venv/
+.venv-1/
 venv/
 env/
 
@@ -22,3 +23,6 @@ Thumbs.db
 
 # uv
 uv.lock
+
+# Our processed outputs (large, regenerate with preprocessing scripts)
+data_processed/
