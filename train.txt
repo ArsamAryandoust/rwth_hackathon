@@ -1,0 +1,20 @@
+For Task 0:
+ 
+Training Feature:
+1. Static across timestep:
+- Metadata
+2. Every timestep:
+- Weather
+- Group 
+- If they have come and optimize the heatpump (Only for one of the groups)
+
+
+Target:
+1. KWh_received_total per timestep
+
+
+
+Problem:
+1. Weather Data are 1 hour interval
+2. How should we train it (Use past day, or other days in the past)
+3. Only should use valid index ( household with more than a year worth of consumption data and have metadata available)
