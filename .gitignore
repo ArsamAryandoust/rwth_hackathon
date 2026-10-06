@@ -26,3 +26,5 @@ uv.lock
 
 # Our processed outputs (large, regenerate with preprocessing scripts)
 data_processed/
+
+data/weather_data_15min/weather_data_15min.csv
